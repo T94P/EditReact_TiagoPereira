@@ -1,0 +1,28 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  
+}
+.navbar-container {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+.navbar-links {
+  display: flex;
+  list-style-type: none; 
+  padding: 0; 
+}
+
+.navbar-links > .nav-link {
+  margin-right: 10px; 
+}
+
+.navbar-container.navbar.navbar-expand.navbar-dark.bg-dark .container {
+  display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: space-between;
+    flex-direction: row;
+}

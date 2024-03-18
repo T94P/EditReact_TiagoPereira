@@ -1,0 +1,25 @@
+
+[
+    {
+      "id": 1,
+      "title": "Projeto Back-End",
+      "description": "Description of Project Back-End for Website",
+      "local-path": "./assets/imagem1.jpg"
+      
+
+    },
+    {
+      "id": 2,
+      "title": "Projeto Front-End",
+      "description": "Description of Project Front-End for Website",
+      "local-path":"./assets/imagem2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Projeto Full-Stack",
+      "description": "Description of Project Website",
+      "local-path":"./assets/imagem3.jpg"
+
+    }
+  ]
+  

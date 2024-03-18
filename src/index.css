@@ -1,0 +1,109 @@
+
+
+/* Global styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  padding-top: 2rem; 
+  padding-bottom: 2rem; 
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem; 
+}
+
+/* Navbar styles */
+.navbar {
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem 0; 
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.nav-link:hover {
+  color: lightgrey;
+}
+
+/* Home component styles */
+.home-title {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 3rem;
+  color: #333;
+}
+
+.home-card {
+  margin-bottom: 3rem; 
+}
+
+.home-card .card {
+  border: none;
+  border-radius: 20px; 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); 
+  transition: all 0.3s ease;
+  background-color: #fff; 
+  overflow: hidden; 
+}
+
+.home-card .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2); /
+}
+
+.home-card .card-title {
+  font-size: 2rem; 
+  font-weight: bold;
+  color: #333;
+  padding: 2rem 1.5rem; 
+  margin-bottom: 0; 
+  color: lightgrey; 
+  height: 8rem;
+}
+
+.home-card .card-text {
+  font-size: 1.4rem; 
+  color: #666;
+  padding: 1.5rem; 
+  color: lightgrey;
+}
+
+.home-card .btn {
+  background-color: #333; 
+  color: #fff; 
+  border: none;
+  border-radius: 8px; 
+  padding: 1rem 2rem;
+  font-size: 1.4rem; 
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.home-card .btn:hover {
+  background-color: #555; 
+}
+
+.card-body {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding:0 !important;
+  background-color: #333;
+}
