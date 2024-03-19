@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 
 const Projects = () => {
-  // Define um estado 'projects' utilizando o hook useState, que será utilizado para armazenar os projetos obtidos do JSON
+  // Define um estado 'projects' com o hook useState, que será utilizado para armazenar os projetos obtidos do JSON
   const [projects, setProjects] = useState([]);
 
-  // Utiliza o hook useEffect para executar a lógica de carregamento dos dados dos projetos assim que o componente é montado
+  // Utiliza o hook useEffect para executar a lógica de carregamento dos dados dos projetos
   useEffect(() => {
     // Faz uma requisição fetch para obter os dados do arquivo JSON contendo os projetos
     fetch('/src/projects/projects.json') 
@@ -12,18 +12,17 @@ const Projects = () => {
       .then(response => response.json())
       // Define os projetos obtidos como o estado 'projects' utilizando o método setProjects
       .then(data => {
-        console.log('Dados dos projetos:', data); // Adiciona console.log para imprimir os dados no console
+        console.log('Dados dos projetos:', data); // Adiciona console.log para imprimir os dados
         setProjects(data);
       })
       // Trata possíveis erros durante a requisição ou conversão para JSON
       .catch(error => console.error('Erro ao buscar projetos:', error));
-  }, []); // O segundo argumento [] garante que o useEffect será executado apenas uma vez, equivalente ao componentDidMount
+  }, []); // O segundo argumento [] garante que o useEffect será executado apenas uma vez
 
   // Retorna a estrutura JSX que representa a página de projetos
   return (
     <div>
-      <h2>Projects Page</h2> 
-      <div>
+      <div class="project-div">
         {/* Mapeia os projetos armazenados no estado 'projects' e renderiza um bloco para cada projeto */}
         {projects.map(project => (
           <div key={project.id}> 
@@ -36,4 +35,4 @@ const Projects = () => {
   );
 };
 
-export default Projects; // Exporta o componente Projects para uso em outros componentes
+export default Projects; // Exporta o componente Projects para usar em outros componentes

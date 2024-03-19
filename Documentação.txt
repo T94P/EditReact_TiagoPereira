@@ -1,0 +1,33 @@
+Pré-requisitos:
+Node.js e npm (Node Package Manager) instalados no seu sistema. Pode descarregá-los em Node.js website.
+Um editor de código como Visual Studio Code, Sublime Text, Atom, etc.
+Passos para executar o projeto:
+
+1. Clonar o repositório (se o projeto estiver num repositório Git):
+
+
+git clone https://github.com/seu-utilizador/seu-projeto.git
+
+2. Navegar até ao diretório do projeto:
+
+
+cd seu-projeto
+
+3. Instalar as dependências do projeto:
+
+
+npm install
+
+4. Iniciar o servidor de desenvolvimento:
+
+npm run dev
+
+Isto irá iniciar o servidor de desenvolvimento fornecido pelo Vite e abrirá automaticamente o seu navegador padrão com o projeto em execução. Também pode aceder ao projeto digitando http://localhost:3000 no seu navegador.
+
+5. Visualização do projeto:
+Agora pode visualizar e interagir com o seu projeto React localmente. Faça alterações no código-fonte e o navegador será atualizado automaticamente para refletir as mudanças.
+
+6. Encerrar a execução:
+Para encerrar o servidor de desenvolvimento, pode pressionar Ctrl + C no terminal onde o servidor está em execução.
+
+Estes são os passos básicos para executar um projeto React com Vite. Certifique-se de ajustar os comandos conforme necessário, dependendo da estrutura e das dependências específicas do seu projeto.
