@@ -33,10 +33,10 @@
    img {
     width: 150px;
     margin-bottom: 50px;
-    border-radius: 10px; /* Adding rounded corners for aesthetics */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Adding shadow for depth */
+    border-radius: 10px; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); 
   }
   
    img:hover {
-    animation: imgAnimation 3s infinite; /* Applying animation to the image */
+    animation: imgAnimation 3s infinite; 
   }
