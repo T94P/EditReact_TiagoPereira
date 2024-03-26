@@ -39,7 +39,7 @@ const Home = () => {
           <Card>
             <Card.Body>
               <Card.Title></Card.Title>
-              <Button variant="danger" href="YOUR_CONTACT_PAGE_URL"><Card.Title>Contact</Card.Title></Button>
+              <Button variant="danger" href="./about"><Card.Title>Contact</Card.Title></Button>
             </Card.Body>
           </Card>
         </div>
@@ -47,7 +47,7 @@ const Home = () => {
           <Card>
             <Card.Body>
               <Card.Title></Card.Title>
-              <Button variant="success" href="LINK_TO_YOUR_RESUME"><Card.Title>Resume</Card.Title></Button>
+              <Button variant="success" href="./about"><Card.Title>Resume</Card.Title></Button>
             </Card.Body>
           </Card>
         </div>
@@ -55,7 +55,7 @@ const Home = () => {
           <Card>
             <Card.Body>
             <Card.Title></Card.Title>
-              <Button variant="warning" href="LINK_TO_YOUR_PORTFOLIO"><Card.Title>Portfolio</Card.Title></Button>
+              <Button variant="warning" href="./projects"><Card.Title>Portfolio</Card.Title></Button>
             </Card.Body>
           </Card>
         </div>

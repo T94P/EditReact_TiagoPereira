@@ -3,22 +3,19 @@
     {
       "id": 1,
       "title": "Projeto Back-End",
-      "description": "Description of Project Back-End for Website",
-      "local-path": "./assets/imagem1.jpg"
+      "description": "Description of Project Back-End for Website"
       
 
     },
     {
       "id": 2,
       "title": "Projeto Front-End",
-      "description": "Description of Project Front-End for Website",
-      "local-path":"./assets/imagem2.jpg"
+      "description": "Description of Project Front-End for Website"
     },
     {
       "id": 3,
       "title": "Projeto Full-Stack",
-      "description": "Description of Project Website",
-      "local-path":"./assets/imagem3.jpg"
+      "description": "Description of Project Website"
 
     }
   ]

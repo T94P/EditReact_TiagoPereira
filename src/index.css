@@ -1,6 +1,5 @@
 
 
-/* Global styles */
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #f4f4f4;
@@ -15,7 +14,6 @@ body {
   padding: 0 1rem; 
 }
 
-/* Navbar styles */
 .navbar {
   border-radius: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -38,7 +36,6 @@ body {
   color: lightgrey;
 }
 
-/* Home component styles */
 .home-title {
   margin-top: 4rem;
   margin-bottom: 2rem;

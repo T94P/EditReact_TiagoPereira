@@ -1,10 +1,10 @@
 .about {
     padding: 50px 50px;
-    background-color: #ffffff85; /* Cor de fundo mais clara */
+    background-color: #ffffff85; 
   }
   
   .about h2 {
-    color: #333; /* Cor do título mais escura */
+    color: #333; 
     padding:50px 0px;
   }
   
@@ -15,4 +15,28 @@
   
   .about .details a:hover {
     color: #e4dfdf;
+  }
+
+  
+  @keyframes imgAnimation {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+   img {
+    width: 150px;
+    margin-bottom: 50px;
+    border-radius: 10px; /* Adding rounded corners for aesthetics */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Adding shadow for depth */
+  }
+  
+   img:hover {
+    animation: imgAnimation 3s infinite; /* Applying animation to the image */
   }
