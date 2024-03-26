@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 
 
 const Projects = () => {
-  // Define um estado 'projects' com o hook useState, que será utilizado para armazenar os projetos obtidos do JSON
   const [projects, setProjects] = useState([]);
 
   // Utiliza o hook useEffect para executar a lógica de carregamento dos dados dos projetos
@@ -10,10 +9,9 @@ const Projects = () => {
     fetch('/src/projects/projects.json') 
       .then(response => response.json())
       .then(data => {
-        console.log('Dados dos projetos:', data); // Adiciona console.log para imprimir os dados
+        console.log('Dados dos projetos:', data); 
         setProjects(data);
       })
-      // Trata possíveis erros durante a requisição ou conversão para JSON
       .catch(error => console.error('Erro ao buscar projetos:', error));
   }, []); // O segundo argumento [] garante que o useEffect será executado apenas uma vez
 
